@@ -30,7 +30,7 @@ if ($age < 18) {
             echo "<h4 class='display-5 mx-2 text-danger'>You are an underage, no voter's card, so you are literally not eligible</h4>";
         }
     }
-}elseif ($age <> 18){
+}elseif ($age < 18){
     if ($vcard == "yes") {
         if ($ward != 20) {
             echo "<br>";
